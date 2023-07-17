@@ -1,0 +1,60 @@
+body {
+	background-image: url("media/background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #1c1c1c;
+}
+
+.content {
+	background-color: #ffffff;
+	border-style: outset;
+	font-family: sans-serif;
+}
+
+p,h1,h2,h3,li {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+p:not(.maintxt),li:not(.maintxt) {
+	font-size: 14px;
+}
+
+.maintxt {
+	font-size: 16px;
+	text-align: justify;
+}
+
+#logo {
+	margin: 2% auto 0 auto;
+	text-align: center;
+}
+
+#nav {
+	margin: 2% 10% 2% 10%;
+	width: 80%;
+}
+
+#main {
+	float: left;
+	margin: 0 2% 2% 10%;
+	width: 67%;
+}
+
+#side {
+	float: left;
+	margin-bottom: 2%;
+	width: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+	#main {
+		margin: 2% 10% 2% 10%;
+		width: 80%;
+	}
+	#side {
+		margin: 0 10% 2% 10%;
+		width: 80%;
+	}
+}
