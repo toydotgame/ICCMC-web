@@ -21,6 +21,13 @@
 			On the 26<sup>th</sup> of January, 2021, the server got moved to a ThinkCentre M58p (2008). It had half the RAM, a similar GPU, a slow old HDD, Ubuntu Server (instead of Windows 7) and a better backup system. Although the specs were far worse, the server' performance <i>improved</i>, due to the fact that the server was used for one purpose: Minecraft. Later on, the server got dedicated Ethernet, which helped uptime.<br>
 			On the 26<sup>th</sup> of June, 2022, the server was upgraded to a new machine with a much higher RAM capacity, meaning that it could be upgraded to the latest version, 1.19.</p>
 			<br>
+			<h2>About the Server Itself</h2>
+			<p class="maintext">ICCMC runs 21 Fabric mods as of right now: AfkDisplay, Alternate Current, AppleSkin, C2ME, Carpet (Extra and TIS), Dynmap, Fabric API, FerriteCore, Krypton, Lithium, LuckPerms, Memory Leak Fix, ServerCore, Servux, Smooth Chunk Save, Starlight, VeryManyPlayers, Simple Voice Chat, and WorldEdit.
+			None of these mods modify the behaviour of the game itself, and most serve the sole purpose of fixing bugs or helping to fight lag on the poor specs of the machine the server runs on.
+			ICCMC also runs 10 datapacks: Double Shulker Shells, Silence Mobs, Anti Ghast Grief, Anti Enderman Grief, Name Colours, Faster Minecarts, VT Unpackables, VT QoL, Multiplayer Sleep, and VT Universal Dyeing.
+			These tweaks are technically non-Vanilla, but play into the game's style very closely, and the community of players on the server all agree that these are reasonable additions.
+			ICCMC strives to make sure that the most people on the server are happy with any given change as possible. If not enough people want a particular change, then it simply is not implemented.</p>
+			<br>
 			<h2>Game Version</h2>
 			<p class="maintext">Up until June 2022, ICCMC ran on Release 1.6.4. Past that point, it runs on a delayed-latest-version system, where the server is updated one month after a version is released, to compensate for development time for mods on the server- and client-side. The first version ICCMC ran after 1.6.4, under this new system, was Release 1.19.</p>
 			<br>
@@ -46,7 +53,7 @@
 			<br>
 		</div>
 		<div id="side" class="content">
-			<iframe src="aside/sidebar.html" style="border: none;" width=100% height=850vh scrolling=no></iframe>
+			<iframe src="aside/sidebar.html" style="border: none;" width=100% height=550vh scrolling=no></iframe>
 		</div>
 	</body>
 </html>
