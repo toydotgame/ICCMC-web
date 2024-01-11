@@ -14,8 +14,6 @@ document.getElementById("nav").innerHTML = `
 <a href="/rules">Rules</a>
 |
 <a href="/about">About</a>
-|
-<a href="/contact">Contact</a>
 `;
 
 document.getElementById("aside").innerHTML = `
