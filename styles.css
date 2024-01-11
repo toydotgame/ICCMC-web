@@ -38,6 +38,10 @@ body {
 		border-radius: 7px;
 }
 
+#content > .card {
+	padding: 14px 24px;
+}
+
 .card:last-child {
 	margin-bottom: 0;
 }
@@ -53,8 +57,13 @@ a:hover {
 }
 
 img {
-	display: block;
+	display: inline-block;
 	border-radius: 7px;
+	cursor: pointer;
+}
+
+img:not([width]) {
+	width: 100%;
 }
 
 hr {
@@ -68,6 +77,10 @@ code {
 
 p > code {
 	font-size: 16px;
+}
+
+ul, ol {
+	padding: 0 2em;
 }
 
 /* NAV */
@@ -90,6 +103,11 @@ p > code {
 #content {
 	float: left;
 	width: 70%;
+	text-align: justify;
+}
+
+#content > div > p {
+	padding-bottom: 14px;
 }
 
 /* IMG MODAL */

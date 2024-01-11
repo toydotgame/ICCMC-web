@@ -10,7 +10,6 @@ overlay.addEventListener("click", onClick);
 
 var imgs = document.getElementById("content").children[0].getElementsByTagName("img");
 for(var i = 0; i <= imgs.length - 1; i++) {
-	console.log("Adding event listener to: " + imgs[i].outerHTML);
 	imgs[i].addEventListener("click", onClick);
 }
 
