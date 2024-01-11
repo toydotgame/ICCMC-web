@@ -27,14 +27,15 @@ body {
 }
 
 #navbar, #content, #aside {
-	padding: 14px;
+	padding: 7px;
 }
 
 .card {
 	margin-bottom: 14px;
 	padding: 14px;
 	background-color: #fff;
-	border: 2px outset #ccc;
+	border: 2px outset #0a0;
+		border-radius: 7px;
 }
 
 .card:last-child {
@@ -42,21 +43,34 @@ body {
 }
 
 a {
-	color: blue;
+	color: #fa0;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
+img {
+	display: block;
+	border-radius: 7px;
+}
+
+hr {
+	margin: 7px 0;
+	border: 1px solid #fa0;
+}
+
 /* NAV */
 
 #logo {
 	display: block;
-	margin: 0 auto;
-		margin-top: 14px;
 	width: 200px;
+	margin: 0 auto;
+		margin-top: 7px;
+	border: 2px outset #fa0;
+		border-radius: 14px;
 }
 
 #nav {
@@ -68,7 +82,6 @@ a:hover {
 #content {
 	float: left;
 	width: 70%;
-	background-color: green;
 }
 
 /* IMG MODAL */
@@ -78,7 +91,6 @@ a:hover {
 #aside {
 	float: left;
 	width: 30%;
-	background-color: blue;
 }
 
 /* RESPONSIVE*/
