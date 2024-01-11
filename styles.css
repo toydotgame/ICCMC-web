@@ -1,0 +1,94 @@
+/*
+ * AUTHOR: toydotgame
+ * CREATED ON: 2024-01-11
+ */
+
+/* GENERIC */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	word-wrap: break-word;
+}
+
+html {
+	min-height: 100vh;
+}
+
+body {
+	background-image: url("/media/background.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+#navbar, #content, #aside {
+	padding: 14px;
+}
+
+.card {
+	margin-bottom: 14px;
+	padding: 14px;
+	background-color: #fff;
+	border: 2px outset #ccc;
+}
+
+.card:last-child {
+	margin-bottom: 0;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* NAV */
+
+#logo {
+	display: block;
+	margin: 0 auto;
+		margin-top: 14px;
+	width: 200px;
+}
+
+#nav {
+	text-align: center;
+}
+
+/* CONTENT */
+
+#content {
+	float: left;
+	width: 70%;
+	background-color: green;
+}
+
+/* IMG MODAL */
+
+/* ASIDE*/
+
+#aside {
+	float: left;
+	width: 30%;
+	background-color: blue;
+}
+
+/* RESPONSIVE*/
+
+@media only screen and (max-width: 700px) {
+	#logo {
+		width: 100px;
+	}
+
+	#content, #aside {
+		width: 100%;
+	}
+}
