@@ -31,9 +31,9 @@ document.getElementById("aside").innerHTML = `
 </div>
 <div class="card">
 	<h3>Hardware</h3>
-	<b>CPU:</b> Intel Core i3-2100 @ 3.1 GHz (2c4t)<br>
-	<b>RAM:</b> 16 GB DDR3-1333<br>
-	<b>HDD:</b> 300 GiB 5400 rpm Hitachi HCC543232A7A380<br>
+	<b>CPU:</b> AMD Ryzen 5 5600G @ 3.9 GHz (6c12t)<br>
+	<b>RAM:</b> 32 GB DDR4-3200<br>
+	<b>HDD:</b> 500 GiB NVMe Crucial P3 CT500P3SSD8<br>
 	<b>OS:</b> Ubuntu Server 22.04 LTS
 </div>
 `;
