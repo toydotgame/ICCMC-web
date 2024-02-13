@@ -33,7 +33,8 @@ document.getElementById("aside").innerHTML = `
 	<h3>Hardware</h3>
 	<b>CPU:</b> AMD Ryzen 5 5600G @ 3.9 GHz (6c12t)<br>
 	<b>RAM:</b> 32 GB DDR4-3200<br>
-	<b>HDD:</b> 500 GiB NVMe Crucial P3 CT500P3SSD8<br>
+	<b>Main Drive:</b> 500 GiB NVMe Crucial P3 CT500P3SSD8<br>
+ 	<b>Backup:</b> 2x 3 TiB Seagate Barracuda @ 7200 rpm<br>
 	<b>OS:</b> Ubuntu Server 22.04 LTS
 </div>
 `;
