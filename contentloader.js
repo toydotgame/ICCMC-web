@@ -19,7 +19,7 @@ document.getElementById("nav").innerHTML = `
 document.getElementById("aside").innerHTML = `
 <div class="card">
 	<h3>Players</h3>
-	<b>Whitelisted:</b> 16<br>
+	<b>Whitelisted:</b> 17<br>
 	<b>Bans:</b> 1
 </div>
 <div class="card">
