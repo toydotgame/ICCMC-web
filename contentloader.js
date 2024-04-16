@@ -9,7 +9,7 @@ import {} from "/imgmodal.js";
 document.getElementById("nav").innerHTML = `
 <a href="/">Home</a>
 |
-<a href="http://iccmc.toydotgame.net:8123/">Map</a>
+<a href="/map/">Map</a>
 |
 <a href="/rules">Rules</a>
 |
