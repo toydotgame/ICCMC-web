@@ -24,10 +24,10 @@ document.getElementById("aside").innerHTML = `
 </div>
 <div class="card">
 	<h3>Minecraft</h3>
-	<b>Release:</b> 1.20.1<br>
-	<b>Software:</b> Fabric 0.14.21<br>
-	<b>Mods:</b> 21<br>
-	<b>Datapacks:</b> 10
+	<b>Release:</b> 1.21<br>
+	<b>Software:</b> Fabric 0.15.11<br>
+	<b>Mods:</b> 26<br>
+	<b>Datapacks:</b> 11
 </div>
 <div class="card">
 	<h3>Hardware</h3>
