@@ -9,7 +9,7 @@ var overlay = document.getElementById("modaldim");
 overlay.addEventListener("click", onClick);
 
 var imgs = document.getElementById("content").children[0].getElementsByTagName("img");
-for(var i = 0; i <= imgs.length - 1; i++) {
+for(var i = 0; i < imgs.length; i++) {
 	imgs[i].addEventListener("click", onClick);
 }
 
