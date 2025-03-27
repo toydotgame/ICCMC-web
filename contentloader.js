@@ -27,7 +27,7 @@ document.getElementById("aside").innerHTML = `
 	<b>Release:</b> 1.21<br>
 	<b>Software:</b> Fabric 0.15.11<br>
 	<b>Mods:</b> 26<br>
-	<b>Datapacks:</b> 11
+	<b>Datapacks:</b> 12
 </div>
 <div class="card">
 	<h3>Hardware</h3>
