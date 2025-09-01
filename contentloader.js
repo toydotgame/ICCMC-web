@@ -19,20 +19,20 @@ document.getElementById("nav").innerHTML = `
 document.getElementById("aside").innerHTML = `
 <div class="card">
 	<h3>Players</h3>
-	<b>Whitelisted:</b> 19<br>
+	<b>Whitelisted:</b> 18<br>
 	<b>Bans:</b> 1
 </div>
 <div class="card">
 	<h3>Minecraft</h3>
-	<b>Release:</b> 1.21<br>
+	<b>Release:</b> 1.21.8<br>
 	<b>Software:</b> Fabric 0.15.11<br>
-	<b>Mods:</b> 26<br>
-	<b>Datapacks:</b> 12
+	<b>Mods:</b> 27<br>
+	<b>Datapacks:</b> 14
 </div>
 <div class="card">
 	<h3>Hardware</h3>
 	<b>CPU:</b> AMD Ryzen 5 5600G @ 3.9 GHz (6c12t)<br>
-	<b>RAM:</b> 32 GB DDR4-3200<br>
+	<b>RAM:</b> 32 GB DDR4-3200 (14 GiB allocated)<br>
 	<b>Main Drive:</b> 500 GiB NVMe Crucial P3 CT500P3SSD8<br>
  	<b>Backup:</b> 2x 3 TiB Seagate Barracuda @ 7200 rpm<br>
 	<b>OS:</b> Ubuntu Server 22.04 LTS
