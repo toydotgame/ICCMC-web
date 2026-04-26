@@ -19,15 +19,15 @@ document.getElementById("nav").innerHTML = `
 document.getElementById("aside").innerHTML = `
 <div class="card">
 	<h3>Players</h3>
-	<b>Whitelisted:</b> 18<br>
+	<b>Whitelisted:</b> 19<br>
 	<b>Bans:</b> 1
 </div>
 <div class="card">
 	<h3>Minecraft</h3>
-	<b>Release:</b> 1.21.8<br>
-	<b>Software:</b> Fabric 0.15.11<br>
-	<b>Mods:</b> 27<br>
-	<b>Datapacks:</b> 14
+	<b>Release:</b> 1.21.1<br>
+	<b>Software:</b> Fabric 0.18.4<br>
+	<b>Mods:</b> 30<br>
+	<b>Datapacks:</b> 19
 </div>
 <div class="card">
 	<h3>Hardware</h3>
